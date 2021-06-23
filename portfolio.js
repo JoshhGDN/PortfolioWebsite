@@ -2,10 +2,11 @@ const app = ()=> {
     navigationSlide();
 }
 var typed = new Typed('.type', {
-    strings: ["visual enthusiast", "web developer", "ui designer"],
+    strings: ["visual enthusiast ","web developer ","ui designer "],
     typeSpeed: 50,
     backSpeed: 50,
-    loop: true
+    loop: true,
+    showCursor: false
   });
 const navigationSlide = ()=> {
     const burger = document.querySelector('.burger');
