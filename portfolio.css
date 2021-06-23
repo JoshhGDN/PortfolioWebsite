@@ -43,13 +43,15 @@ html, body {
 .nav{
     display: flex;
     justify-content: space-around;
-    width: 30%;
+    width: 60%;
     list-style: none;
     margin-right: 15%;
 }
 .burger {
     display: none;
     cursor: pointer;
+    position:sticky;
+    left: 100px;
 }
 .burger div {
     width: 25px;
