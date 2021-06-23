@@ -149,6 +149,7 @@ a:hover {
 .textArea {
     width: 65%;
     height: 80%;
+    text-align: center;
 }
 .homeText {
     position: absolute;
