@@ -111,9 +111,12 @@ a:hover {
 }
 .skillsList img {
     filter: brightness(2) invert(1);
+    /* 
     top: 50%;
     left: 50%;
     transform: translate(305%, -250%);
+    */
+    vertical-align: middle;
 }
 .aboutArea {
     position: relative;
