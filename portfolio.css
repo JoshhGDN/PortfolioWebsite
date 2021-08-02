@@ -91,6 +91,9 @@ a:hover {
     background-size: cover;
     background-color: #010101;
 }
+.aboutMe {
+    
+}
 .skillsArea {
     position: relative;
     width: 100%;
@@ -165,6 +168,7 @@ a:hover {
     text-align: center;
 }
 .homeText {
+    font-size: larger;
     position: absolute;
     top: 50%;
     left: 50%;
