@@ -1,6 +1,4 @@
-const app = ()=> {
-    navigationSlide();
-}
+// Typed Animation at start of page load
 var typed = new Typed('.type', {
     strings: ["visual enthusiast ","web developer ", "software engineer ", "ui designer "],
     typeSpeed: 50,
@@ -8,7 +6,11 @@ var typed = new Typed('.type', {
     loop: true,
     showCursor: false
   });
-  
+// Animation for Navigation Slide
+const app = ()=> {
+    navigationSlide();
+}
+
 const navigationSlide = ()=> {
     const burger = document.querySelector('.burger');
     const nav = document.querySelector('.nav');
