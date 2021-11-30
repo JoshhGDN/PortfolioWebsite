@@ -241,6 +241,10 @@ section .container {
         top: 10%;
         font-size: 18px;
     }
+    .websiteOne img, .websiteTwo img, .websiteThree img {
+        width: 300px;
+        height: 150px;
+    }
 }
 @media screen and (max-width: 768px){
     body {
