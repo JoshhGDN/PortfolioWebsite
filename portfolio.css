@@ -122,12 +122,15 @@ a:hover {
 .portfolioStack {
     list-style: none;
     justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
 }
-.websiteOne img, .websiteTwo img, .websiteThree img {
-    width: 600px;
-    height: 250px;
+.websiteOne img, .websiteTwo img, .websiteThree img, .websiteFour img {
+    width: 450px;
+    height: 200px;
     
 }
+
 .contactArea {
     position: relative;
     /* Photo by Sekwang Chia on Unsplash */
@@ -150,6 +153,9 @@ a:hover {
     height: 700px;
     background-color:#010101;
     color: white;
+}
+.portfolioArea {
+    height: 100vh;
 }
 .skillsArea {
     background-color: #010101;
@@ -191,8 +197,17 @@ p {
     font-size: 25px;
     line-height: 40px;
 }
-
+.spacing {
+    width: 100%;
+    float: none;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: -13%;
+    
+}
 section .container {
+    position: relative;
     display: grid;
     grid-gap: 14px;
     padding: 16px;
@@ -244,6 +259,7 @@ section .container {
     .websiteOne img, .websiteTwo img, .websiteThree img {
         width: 300px;
         height: 150px;
+        left: 50%;
     }
 }
 @media screen and (max-width: 768px){
