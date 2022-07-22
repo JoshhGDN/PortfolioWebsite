@@ -246,7 +246,8 @@ section .container {
 }
 @media screen and (max-width: 600px){ 
     .container {
-        grid-template-columns: 1fr;
+        grid-template-columns: 0fr;
+
     }
     .homeText {
         top: 50%;
@@ -259,7 +260,9 @@ section .container {
     .websiteOne img, .websiteTwo img, .websiteThree img {
         width: 300px;
         height: 150px;
-        left: 50%;
+    }
+    .set {
+        font-size: 3px;
     }
 }
 @media screen and (max-width: 768px){

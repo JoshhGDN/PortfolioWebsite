@@ -1,6 +1,6 @@
 // Typed Animation at start of page load
 var typed = new Typed('.type', {
-    strings: ["visual enthusiast ","web developer ", "software engineer ", "ui designer "],
+    strings: ["cybersecurity ","software ", "web developer ", "visual enthusiast "],
     typeSpeed: 50,
     backSpeed: 50,
     loop: true,
