@@ -219,6 +219,7 @@ section .container {
     background: #010101;
     padding: 24px;
     border-radius: 12px;
+    background-color: #e47700;
 }
 .container .set:hover {
     box-shadow: 0px 12px 16px grey;
@@ -263,6 +264,10 @@ section .container {
     }
     .set {
         font-size: 3px;
+    }
+    .container {
+        top: 50%;
+        left: 10%;
     }
 }
 @media screen and (max-width: 768px){
